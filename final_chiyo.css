@@ -757,12 +757,12 @@ div.mt-2 { margin-top: 24px !important }
 }
 
 /* ═══ CARD ROW ═══ */
-.co-card-row { display: flex; gap: 16px; margin-top: 16px; min-height: 680px }
+.co-card-row { display: flex; gap: 16px; margin-top: 16px }
 .co-card-row .co-profile-box { flex: 0 0 33%; max-width: 33%; margin-top: 0 }
 .co-card-row .co-right-stack { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 16px }
 .co-card-row .co-right-stack .co-card { flex: 1; margin-top: 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-start }
 @media (max-width: 640px) {
-    .co-card-row { flex-direction: column; gap: 12px; min-height: auto }
+    .co-card-row { flex-direction: column; gap: 12px }
     .co-card-row .co-profile-box { flex: none; max-width: 100% }
     .co-card-row .co-profile-box .co-profile-img { max-height: 300px }
 }
