@@ -618,10 +618,10 @@ div.mt-2 { margin-top: 24px !important }
     font-family: var(--co-font-mono); font-size: 0.85em; font-weight: 700;
     color: var(--co-accent-soft); min-width: 28px; opacity: 0.65; transition: opacity 0.25s ease, color 0.25s ease
 }
-.co-sc-entry:hover .co-sc-num { opacity: 1; color: var(--co-gold) }
+.co-sc-entry:hover .co-sc-num { opacity: 1; color: var(--co-coral) }
 .co-sc-etext { flex: 1; min-width: 0 }
 .co-sc-etext h4 { font-family: var(--co-font-display); font-size: 1.02em; font-weight: 700; color: var(--co-text); margin: 0 0 3px; line-height: 1.3; transition: color 0.25s ease }
-.co-sc-entry:hover .co-sc-etext h4 { color: var(--co-gold) }
+.co-sc-entry:hover .co-sc-etext h4 { color: var(--co-coral) }
 .co-sc-etext p { font-size: 0.9em; color: var(--co-text-dim); margin: 0; line-height: 1.5 }
 
 /* !! COPYRIGHT CURIEORIGINALS 2026 — ALL RIGHTS RESERVED !!
