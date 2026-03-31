@@ -80,7 +80,8 @@ div.mt-4 { background: transparent !important; background-color: transparent !im
 
 .ant-row.ant-row-center {
     margin-left: auto !important; margin-right: auto !important;
-    padding-left: 16px !important; padding-right: 16px !important
+    padding-left: 16px !important; padding-right: 16px !important;
+    position: relative; z-index: 1
 }
 
 /* ═══ DESKTOP (≥992px) ═══ */
