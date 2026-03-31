@@ -754,7 +754,7 @@ div.mt-2 { margin-top: 24px !important }
 .co-btn-support:hover {
     background: var(--co-coral) !important; color: #fff !important;
     border-color: var(--co-coral) !important;
-    box-shadow: 0 0 14px rgba(255, 50, 50, 0.4), 0 4px 16px rgba(255, 50, 50, 0.2) !important;
+    box-shadow: 0 0 14px rgba(247, 168, 196, 0.4), 0 4px 16px rgba(247, 168, 196, 0.2) !important;
     transform: translateY(-2px)
 }
 .co-btn-heart {
