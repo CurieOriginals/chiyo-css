@@ -522,16 +522,13 @@ div.mt-2 { margin-top: 24px !important }
 .co-card p { font-family: var(--co-font-body); font-size: 0.92em; font-weight: 400; color: var(--co-text); line-height: 1.7; margin: auto 0 }
 
 /* ═══ VIDEO BOX ═══ */
-.co-video-box { flex: 2 !important; display: flex; flex-direction: column }
-.co-video-wrap {
-    position: relative; width: 100%; padding-bottom: 56.25%;
-    height: 0; overflow: hidden; border-radius: var(--co-radius-sm);
-    margin-top: 8px; flex: 1
+.co-video-box { display: flex; flex-direction: column }
+.co-video-link {
+    display: block; margin-top: 8px; border-radius: var(--co-radius-sm);
+    overflow: hidden; transition: opacity 0.3s ease, box-shadow 0.3s ease
 }
-.co-video-wrap iframe {
-    position: absolute; top: 0; left: 0;
-    width: 100%; height: 100%; border: none
-}
+.co-video-link:hover { opacity: 0.9; box-shadow: 0 0 16px rgba(255, 50, 50, 0.3) }
+.co-video-thumb { width: 100%; display: block; object-fit: cover }
 .co-right-stack .co-card > p { margin-top: auto !important; margin-bottom: auto !important }
 
 /* ═══ PROFILE IMAGE — glow shift + cut corner bottom-left ═══ */
