@@ -865,7 +865,7 @@ div.mt-2 { margin-top: 24px !important }
     background: var(--co-glass); border: 1px solid var(--co-glass-border);
     transition: background .25s ease, border-color .25s ease; text-decoration: none
 }
-.co-credit:hover { background: rgba(50, 188, 255, 0.04); border-color: rgba(50, 188, 255, 0.2); box-shadow: 0 0 15px rgba(50, 188, 255, 0.06); opacity: 1 }
+.co-credit:hover { background: rgba(247, 168, 196, 0.04); border-color: rgba(247, 168, 196, 0.2); box-shadow: 0 0 15px rgba(247, 168, 196, 0.06); opacity: 1 }
 .co-credit-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid var(--co-glass-border) }
 .co-credit-info { min-width: 0 }
 .co-credit-name { font-family: var(--co-font-display); font-size: 0.88em; font-weight: 700; color: var(--co-text); line-height: 1.3 }
