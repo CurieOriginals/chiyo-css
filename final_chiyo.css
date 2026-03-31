@@ -473,6 +473,11 @@ div.mt-2 { margin-top: 24px !important }
     position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden;
     background: url('https://curie-assets.site/images/Chiyo_bg.webp') center top / 100% auto no-repeat
 }
+@media (max-width: 991px) {
+    .co-bg-decor {
+        background: url('https://curie-assets.site/images/Chiyo_bg_mobile.webp') center top / cover no-repeat
+    }
+}
 
 /* Hide emoji elements */
 .co-heart, .co-broken, .co-anger { display: none !important }
