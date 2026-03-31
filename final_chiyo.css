@@ -600,7 +600,7 @@ div.mt-2 { margin-top: 24px !important }
 .co-sc-entries::-webkit-scrollbar { width: 4px }
 .co-sc-entries::-webkit-scrollbar-track { background: transparent }
 .co-sc-entries::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 2px }
-.co-sc-entries::-webkit-scrollbar-thumb:hover { background: rgba(50, 188, 255, 0.3) }
+.co-sc-entries::-webkit-scrollbar-thumb:hover { background: rgba(247, 168, 196, 0.3) }
 .co-sc-entry {
     flex: 0 0 125px; display: flex; align-items: center; gap: 16px;
     padding: 0 24px; border-bottom: 1px solid rgba(255, 255, 255, 0.04);
@@ -608,10 +608,10 @@ div.mt-2 { margin-top: 24px !important }
 }
 .co-sc-entry:last-child { border-bottom: none }
 .co-sc-entry:hover {
-    background: linear-gradient(90deg, rgba(247, 168, 196, 0.08) 0%, rgba(50, 188, 255, 0.02) 40%, transparent 100%);
+    background: linear-gradient(90deg, rgba(247, 168, 196, 0.08) 0%, rgba(247, 168, 196, 0.02) 40%, transparent 100%);
     border-left: 2px solid var(--co-coral);
     padding-left: 22px;
-    box-shadow: inset 4px 0 20px rgba(50, 188, 255, 0.04)
+    box-shadow: inset 4px 0 20px rgba(247, 168, 196, 0.04)
 }
 .co-sc-entry:hover .co-sc-etext p { color: rgba(235, 235, 240, 0.85) }
 .co-sc-num {
