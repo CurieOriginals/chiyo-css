@@ -91,7 +91,7 @@ div.mt-4 { background: transparent !important; background-color: transparent !im
         display: grid !important; grid-template-columns: 1fr !important;
         grid-template-rows: 1fr auto auto !important; align-items: end !important;
         row-gap: 4px !important; overflow: visible !important;
-        position: relative !important; min-height: 340px !important;
+        position: relative !important; z-index: 1 !important; min-height: 340px !important;
         padding: 0 16px 0 !important; margin-bottom: 80px !important;
         border-radius: var(--co-radius) !important;
         background: url('https://curie-assets.site/images/Chiyo_header.webp') center 40% / cover no-repeat !important;
@@ -140,7 +140,7 @@ div.mt-4 { background: transparent !important; background-color: transparent !im
     .ant-col.text-left.ant-col-xs-24.ant-col-lg-6 {
         display: grid !important; grid-template-columns: 1fr !important;
         grid-template-rows: 1fr auto auto !important; align-items: end !important;
-        row-gap: 4px !important; position: relative !important; min-height: 200px !important;
+        row-gap: 4px !important; position: relative !important; z-index: 1 !important; min-height: 200px !important;
         padding: 0 14px 0 !important; margin-bottom: 72px !important;
         border-radius: var(--co-radius) !important;
         background: url('https://curie-assets.site/images/Chiyo_header.webp') center 40% / cover no-repeat !important;
@@ -521,19 +521,12 @@ div.mt-2 { margin-top: 24px !important }
 
 .co-card p { font-family: var(--co-font-body); font-size: 0.92em; font-weight: 400; color: var(--co-text); line-height: 1.7; margin: auto 0 }
 
-/* ═══ MERGED BOX (About + Creator's Note) ═══ */
-.co-card.co-merged-box { flex: 2 !important }
-.co-merged-box .co-divider {
-    width: 100%; height: 1px; margin: 16px 0;
-    background: var(--co-glass-border)
-}
-
-/* ═══ YOUTUBE VIDEO BOX ═══ */
-.co-video-box { flex: 1 !important }
+/* ═══ VIDEO BOX ═══ */
+.co-video-box { flex: 2 !important; display: flex; flex-direction: column }
 .co-video-wrap {
     position: relative; width: 100%; padding-bottom: 56.25%;
     height: 0; overflow: hidden; border-radius: var(--co-radius-sm);
-    margin-top: 8px
+    margin-top: 8px; flex: 1
 }
 .co-video-wrap iframe {
     position: absolute; top: 0; left: 0;
