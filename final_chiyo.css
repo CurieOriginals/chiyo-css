@@ -228,7 +228,7 @@ div.mt-4:has(svg.lucide-messages-square)>button.ant-btn:has(svg.lucide-messages-
     color: #111 !important; font-weight: 700 !important; font-size: 0.88em !important;
     border: none !important; clip-path: none !important; padding: 0 24px !important;
     border-radius: var(--co-radius-sm) !important;
-    box-shadow: 0 0 16px rgba(255, 50, 50, 0.4), 0 0 32px rgba(255, 50, 50, 0.15) !important;
+    box-shadow: 0 0 16px rgba(247, 168, 196, 0.4), 0 0 32px rgba(247, 168, 196, 0.15) !important;
     animation: none !important;
     transition: background .3s ease, box-shadow .3s ease !important
 }
