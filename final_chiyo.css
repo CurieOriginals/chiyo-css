@@ -387,7 +387,7 @@ div[length][color]:has(.msg-mkdn-container)~*, div[length][color]:has(.msg-mkdn-
 .ant-comment-actions > li { color: var(--co-text-faint) !important; font-size: 0.8rem !important }
 .ant-comment-actions > li:hover { color: var(--co-gold) !important }
 .ant-comment-actions > li > span { color: inherit !important }
-.ant-comment-nested { margin-left: 44px !important; border-left: 2px solid rgba(50, 188, 255, 0.15) !important; padding-left: 16px !important }
+.ant-comment-nested { margin-left: 44px !important; border-left: 2px solid rgba(247, 168, 196, 0.15) !important; padding-left: 16px !important }
 .ant-comment .ant-form-item { margin-bottom: 0 !important }
 .ant-comment textarea.ant-input { background: rgba(255, 255, 255, 0.02) !important; border: 1px solid var(--co-glass-border) !important; border-radius: var(--co-radius-xs) !important; color: var(--co-text) !important; padding: 12px 16px !important; resize: vertical !important; min-height: 80px !important; width: 100% !important; max-width: 100% !important; box-sizing: border-box !important }
 .ant-comment textarea.ant-input:focus { border-color: var(--co-gold) !important; box-shadow: 0 0 0 2px rgba(50, 188, 255, 0.1) !important }
