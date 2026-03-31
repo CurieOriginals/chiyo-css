@@ -616,7 +616,7 @@ div.mt-2 { margin-top: 24px !important }
 .co-sc-entry:hover .co-sc-etext p { color: rgba(235, 235, 240, 0.85) }
 .co-sc-num {
     font-family: var(--co-font-mono); font-size: 0.85em; font-weight: 700;
-    color: var(--co-accent-soft); min-width: 28px; opacity: 0.65; transition: opacity 0.25s ease, color 0.25s ease
+    color: #c4607a; min-width: 28px; opacity: 0.65; transition: opacity 0.25s ease, color 0.25s ease
 }
 .co-sc-entry:hover .co-sc-num { opacity: 1; color: var(--co-coral) }
 .co-sc-etext { flex: 1; min-width: 0 }
