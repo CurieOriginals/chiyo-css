@@ -347,7 +347,7 @@ footer.ant-layout-footer { display: none !important }
 .ant-menu-horizontal { border-bottom: none !important; box-shadow: none !important }
 .ant-menu.ant-menu-root.ant-menu-vertical, .ant-menu-vertical, .ant-layout-sider, .ant-layout-sider-dark, aside.ant-layout-sider {
     background: transparent !important; background-color: transparent !important; border: none !important;
-    position: relative !important; z-index: 3 !important
+    z-index: 3 !important
 }
 .ant-menu-item:has(img[alt="logo"]) .ant-menu-title-content { display: flex !important; align-items: center }
 .ant-menu-item:has(img[alt="logo"]) img { margin-top: 2px }
