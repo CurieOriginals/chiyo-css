@@ -15,8 +15,8 @@
     --co-surface-hover: rgba(28, 28, 34, 0.98);
     --co-glass: rgba(255, 255, 255, 0.02);
     --co-glass-border: rgba(255, 255, 255, 0.08);
-    --co-coral: #ff3232;
-    --co-gold: #32bcff;
+    --co-coral: #f7a8c4;
+    --co-gold: #ffffff;
     --co-accent: #ff3232;
     --co-accent-soft: #ff8a8c;
     --co-accent-deep: #ffd0d1;
@@ -43,8 +43,8 @@
     --co-btn-transition: all .25s cubic-bezier(.4, 0, .2, 1);
     --co-page-width: 1300px;
     --co-border-idle: #1a1a1e;
-    --co-border-coral: #ff3232;
-    --co-border-gold: #32bcff
+    --co-border-coral: #f7a8c4;
+    --co-border-gold: #ffffff;
 }
 
 @media (min-width:768px) { :root { --co-inset: 24px } }
