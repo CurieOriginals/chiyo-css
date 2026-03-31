@@ -65,10 +65,21 @@ div.mt-2>.font-size-message { display: none !important }
 
 body {
     background-color: #0c0c0e !important;
-    background-image: linear-gradient(180deg, #101014 0%, #0c0c0e 40%, #0a0a0c 100%) !important;
+    background-image: url('https://curie-assets.site/images/Chiyo_bg.webp') !important;
+    background-size: 100% auto !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
     position: relative !important;
     min-height: 100dvh !important;
     padding-bottom: 40px !important
+}
+@media (max-width: 991px) {
+    body {
+        background-image: url('https://curie-assets.site/images/Chiyo_bg_mobile.webp') !important;
+        background-size: cover !important;
+        background-attachment: scroll !important
+    }
 }
 
 /* Ambient glow removed */
@@ -80,7 +91,8 @@ div.mt-4 { background: transparent !important; background-color: transparent !im
 
 .ant-row.ant-row-center {
     margin-left: auto !important; margin-right: auto !important;
-    padding-left: 16px !important; padding-right: 16px !important
+    padding-left: 16px !important; padding-right: 16px !important;
+    position: relative; z-index: 1
 }
 
 /* ═══ DESKTOP (≥992px) ═══ */
@@ -334,7 +346,8 @@ footer.ant-layout-footer { display: none !important }
 }
 .ant-menu-horizontal { border-bottom: none !important; box-shadow: none !important }
 .ant-menu.ant-menu-root.ant-menu-vertical, .ant-menu-vertical, .ant-layout-sider, .ant-layout-sider-dark, aside.ant-layout-sider {
-    background: transparent !important; background-color: transparent !important; border: none !important
+    background: transparent !important; background-color: transparent !important; border: none !important;
+    z-index: 3 !important
 }
 .ant-menu-item:has(img[alt="logo"]) .ant-menu-title-content { display: flex !important; align-items: center }
 .ant-menu-item:has(img[alt="logo"]) img { margin-top: 2px }
@@ -405,7 +418,7 @@ div[length][color]:has(.msg-mkdn-container)~*, div[length][color]:has(.msg-mkdn-
 .ant-tag:hover { background: rgba(50, 188, 255, 0.2) !important; color: #fff !important; border-color: var(--co-gold) !important }
 .ant-space.ant-space-horizontal.ant-space-align-center { max-height: none !important; overflow: visible !important; flex-wrap: wrap !important; display: flex !important; flex-direction: row !important; gap: 6px !important }
 .ant-space.ant-space-horizontal.ant-space-align-center > .ant-space-item { width: auto !important; flex: none !important }
-div.mt-2 { margin-top: 24px !important }
+div.mt-2 { margin-top: 24px !important; position: relative; z-index: 2 }
 .ant-select-selection-overflow, .ant-select:has(.ant-select-selection-overflow) { display: none !important }
 #root, .ant-layout, .ant-layout-content, main.ant-layout-content { background: transparent !important; position: relative; z-index: 1 }
 
@@ -468,16 +481,8 @@ div.mt-2 { margin-top: 24px !important }
 @media (max-width:991px) { html, body { overscroll-behavior: none !important; overflow-x: hidden !important } }
 
 .co-page { width: 100%; max-width: var(--co-page-width); margin: 0 auto; padding: 0 16px; position: relative; z-index: 2 }
-/* ═══ BACKGROUND IMAGE ═══ */
-.co-bg-decor {
-    position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden;
-    background: url('https://curie-assets.site/images/Chiyo_bg.webp') center top / 100% auto no-repeat
-}
-@media (max-width: 991px) {
-    .co-bg-decor {
-        background: url('https://curie-assets.site/images/Chiyo_bg_mobile.webp') center top / cover no-repeat
-    }
-}
+/* ═══ BACKGROUND IMAGE — now on body, co-bg-decor disabled ═══ */
+.co-bg-decor { display: none !important }
 
 /* Hide emoji elements */
 .co-heart, .co-broken, .co-anger { display: none !important }
